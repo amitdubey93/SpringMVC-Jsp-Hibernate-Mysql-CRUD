@@ -3,9 +3,9 @@ This project is developed in eclipse maven-archtype-webapp with all defaults. So
 What I did for running this project in ecliplse ide.
 
 # What I’m using: 
-1.	Eclipse photon.	
-2.	Tomcat server 9.0.
-3.  Java 8
+1. Eclipse photon.	
+2. Tomcat server 9.0.
+3. Java 8
 
 # Now..
 1.	Download or git clone the project.
@@ -63,3 +63,10 @@ Add this in pom.xml before dependencies so your compiler version doesn’t chang
 	<maven.compiler.target>1.8</maven.compiler.target>
 </properties>		
 ```
+# OR.............
+Just add runtime environment i.e. Tomcat server leaving all defaults as it is and run.
+
+# NOTE: 
+Your project will not be configured for java 8 or above.
+Sharing this because it burnt so many hours of mine and now i'm enjoying editing this README.md file.
+All these updates are best to knowledge and i could be wrong.. Thanks.
